@@ -1,16 +1,116 @@
+
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <main class="container my-5">
+        <div class="block-heading text-center mb-5">
+            <h2>Shopping Cart</h2>
+            <p class="text-muted">Your selected products</p>
+        </div>
 
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="product p-3 mb-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 col-4">
+                            <img src="https://placehold.co/200x200/e8edf3/333333?text=Product+1" class="img-fluid" alt="Product 1">
+                        </div>
+                        <div class="col-md-5 col-8">
+                            <h5>Product 1</h5>
+                            <p class="text-muted">High-quality product</p>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3 mt-md-0">
+                            <p class="mb-1">Quantity</p>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3 mt-md-0">
+                            <h6>$120.00</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product p-3 mb-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 col-4">
+                            <img src="https://placehold.co/200x200/f4e9dc/333333?text=Product+2" class="img-fluid" alt="Product 2">
+                        </div>
+                        <div class="col-md-5 col-8">
+                            <h5>Product 2</h5>
+                            <p class="text-muted">Comfortable and stylish</p>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3 mt-md-0">
+                            <p class="mb-1">Quantity</p>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3 mt-md-0">
+                            <h6>$80.00</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product p-3 mb-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-3 col-4">
+                            <img src="https://placehold.co/200x200/e5eee4/333333?text=Product+3" class="img-fluid" alt="Product 3">
+                        </div>
+                        <div class="col-md-5 col-8">
+                            <h5>Product 3</h5>
+                            <p class="text-muted">A great addition to your collection</p>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3 mt-md-0">
+                            <p class="mb-1">Quantity</p>
+                            <select class="form-control">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="col-md-2 col-6 mt-3 mt-md-0">
+                            <h6>$60.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="summary p-4">
+                    <h4 class="text-center mb-4">Order Summary</h4>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Subtotal</span>
+                        <span>$260.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Shipping</span>
+                        <span>Free</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-3">
+                        <span>Discount</span>
+                        <span>$0.00</span>
+                    </div>
+                    <div class="d-flex justify-content-between total py-3">
+                        <strong>Total</strong>
+                        <strong>$260.00</strong>
+                    </div>
+                    <button type="button" class="btn btn-primary btn-block mt-3">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="./script.js"></script>
 </body>
-
 </html>
